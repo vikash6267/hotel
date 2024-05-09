@@ -25,25 +25,21 @@ const Layout = () => {
           </button>
           <a href="./home"><img className="logo" src={logofinal} alt="Logo"></img></a>
           <div className={`collapse navbar-collapse ${isResponsive ? 'show' : ''}`} id="navbarTogglerDemo01">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <Link to="home">Home</Link>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <Link className='m-4' to="home">Home</Link>
               </li>
-              <li className="nav-item">
-                <Link to="about">About</Link>
+              <li class="nav-item">
+                <Link className='m-4' to="rooms">Rooms</Link>
               </li>
-              <li className="nav-item">
-                <Link to="rooms">Rooms</Link>
+              <li class="nav-item">
+                <Link className='m-4' to="avail">Availables</Link>
               </li>
-              <li className="nav-item">
-                <Link to="facilities/services">Amenities</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="photos">Gallery</Link>
+              <li class="nav-item">
+                <Link className='m-4' to="contact">Contact</Link>
               </li>
             </ul>
-            <button className="btnsign">
-              <Link to="contact">Contact us</Link>
+            <button className="btnsign"><a className='m-4' href="/login">LogIn</a>
             </button>
           </div>
         </div>
