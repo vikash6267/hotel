@@ -6,6 +6,8 @@
   box-sizing: border-box;
   --locked-color: rgb(119, 119, 119);
   --unlocked-color: rgb(255, 0, 0);
+  overflow-x: hidden;
+
 }
 
 html {

@@ -26,10 +26,10 @@ const Contact = () => {
   return (
     <>
 
-      <div className='contact'>
+      <div className='contact '>
         <img src={contactpc} className='cpix' />
         <div className="contactform">
-          <form>
+          <form className=' overflow-y-hidden'>
             <h1 class="h1 m-2">Connect with us!</h1>
             <i class='bx bxs-user' ></i>
             <input className="msg" placeholder="Enter Name" type="text" name="name" value={input.name} onChange={handleInput} required></input>
