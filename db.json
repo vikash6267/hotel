@@ -1,0 +1,172 @@
+{
+  "Bookings": [
+    {
+      "checkin": "2024-01-23",
+      "checkout": "2024-01-25",
+      "rooms": 2,
+      "guest": 4,
+      "id": "1"
+    },
+    {
+      "checkin": "2024-04-23",
+      "checkout": "2024-04-26",
+      "guest": "3",
+      "rooms": "1",
+      "id": "2"
+    },
+    {
+      "checkin": "2024-05-17",
+      "checkout": "2024-05-20",
+      "guest": "5",
+      "rooms": "3",
+      "id": "3"
+    },
+    {
+      "checkin": "2024-05-09",
+      "checkout": "2024-05-15",
+      "guest": "4",
+      "rooms": "2",
+      "id": "5"
+    }
+  ],
+  "Customer": [
+    {
+      "id": "1",
+      "checkin": "06/12/23",
+      "checkout": "06/27/23",
+      "rooms": 2,
+      "guest": 4,
+      "type": "Plaza Suite",
+      "name": "Ritika Philip",
+      "contact": 7415545620    }
+  ],
+  "Message": [
+    {
+      "name": "Ritika Philip",
+      "email": "ritikaphilip2000@gmail.com",
+      "msg": "Great location, beautiful surrounding atmosphere, great staff",
+      "id": "e14f"
+    },
+    {
+      "name": "Twinkle Solanki",
+      "email": "Twinkle2507@gmail.com",
+      "msg": "Can u book room for 6 and please send details about other services as i need to book more rooms",
+      "id": "b0af"
+    },
+    {
+      "name": "Shivam Raghuwanshi",
+      "email": "shivi11@gmail.com",
+      "msg": "Need to know more about the hotel and the availablity",
+      "id": "7b82"
+    },
+    {
+      "name": "preeti mewada",
+      "email": "preeti@12gmail.com",
+      "msg": "Wifi in room was to weak ",
+      "id": "e5eb"
+    },
+    {
+      "name": "Pragya singh",
+      "email": "pragya@33gmail.com",
+      "msg": "Service was great had a good vacation",
+      "id": "61ca"
+    },
+    {
+      "name": "maaz ahmed",
+      "email": "maazahmed4@gmail.com",
+      "msg": "Most friendly and helpful receptionist and staff ever, lovely and great first impression of hotel. ",
+      "id": "a031"
+    },
+    {
+      "name": "anjali james",
+      "email": "anjalijames@24gmail.com",
+      "msg": "Room itself was well equipped and comfortable. I was very pleased with my stay.",
+      "id": "ccf8"
+    },
+    {
+      "id": "fb42",
+      "name": "Rocky",
+      "email": "rocky@22gmail.com"
+    },
+    {
+      "id": "4037",
+      "name": "RITIKA PHILIP",
+      "email": "ritikaphilip2000@gmail.com",
+      "msg": "Room itself was well equipped and comfortable. I was very pleased with my stay."
+    }
+  ],
+  "guests": [
+    {
+      "name": "Eiya Philip",
+      "email": "eiya@gmail.com",
+      "password": "eiya",
+      "number": "635984556",
+      "id": "1001"
+    },
+    {
+      "name": "Shivam Raghuwanshi",
+      "email": "shivi@11gmail.com",
+      "password": "despo",
+      "number": "8622246315",
+      "id": "1002"
+    },
+    {
+      "name": "Darshan Raval",
+      "email": "darshu@123gmail.com",
+      "password": "12345",
+      "number": "8659459514",
+      "id": "1003"
+    },
+    {
+      "name": "Pragya singh",
+      "email": "pragya@33gmail.com",
+      "password": "007",
+      "number": "874956215",
+      "id": "1004"
+    },
+    {
+      "name": "Twinkle Solanki",
+      "email": "Twinkle2507@gmail.com",
+      "password": "littlestar",
+      "number": "7485912255",
+      "id": "1005"
+    },
+    {
+      "id": "1006",
+      "name": "Jini",
+      "email": "jini@12gmail.com",
+      "number": "458456545",
+      "password": "jini"
+    },
+    {
+      "id": "3287",
+      "checkin": "2024-05-22",
+      "checkout": "2024-05-23",
+      "guest": "2",
+      "rooms": "1"
+    },
+    {
+      "id": "c223",
+      "checkin": "2024-05-24",
+      "checkout": "2024-05-28",
+      "guest": "2",
+      "rooms": "1"
+    }
+  ],
+  "adminuser": [
+    {
+      "id": "100",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "contact": 741554555,
+      "password": "admin123"
+    },
+    {
+      "id": "101",
+      "name": "adminisme",
+      "email": "itsme@123gmail.com",
+      "contact": 9685100437,
+      "password": "321"
+    }
+  ]
+}
