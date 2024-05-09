@@ -39,7 +39,7 @@ const Layout = () => {
                 <Link className='m-4' to="contact">Contact</Link>
               </li>
             </ul>
-            <button className="btnsign"><a className='m-4' href="/login">LogIn</a>
+            <button className="btnsign"><Link className='m-4' to="login">LogIn</Link>
             </button>
           </div>
         </div>

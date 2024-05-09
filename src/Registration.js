@@ -32,16 +32,16 @@ const Registration = () => {
 	}
 
 	return (
-		<div className="registerbox">
+		<div className="registerbox overflow-y-hidden ">
 			<div class="riten">
 				<h2>Welcome To Accord
 					<br/> Highland Ooty </h2>
 			</div>
 			{isLoading ? <Loader /> : ""}
-			<div className="screen__content">
+			<div className="screen__content ">
 				<div className="container-login">
 					<div className="screen">
-						<h1 id="h1reg" class="h1 heading"> Registration Form</h1>
+						<h1 id="h1reg" class=""> Registration Form</h1>
 						<form className="login">
 							<div className="login__field">
 								<input type="text" name="name" value={input.name} className="login__input" placeholder="User name" required onChange={handleInput} />

@@ -26,10 +26,12 @@ const Contact = () => {
   return (
     <>
 
-      <div className='contact '>
+<div className=' flex flex-column  '>
+
+      <div className='contact  '>
         <img src={contactpc} className='cpix' />
         <div className="contactform">
-          <form className=' overflow-y-hidden'>
+          <form className=''>
             <h1 class="h1 m-2">Connect with us!</h1>
             <i class='bx bxs-user' ></i>
             <input className="msg" placeholder="Enter Name" type="text" name="name" value={input.name} onChange={handleInput} required></input>
@@ -59,6 +61,7 @@ const Contact = () => {
       <div className='map'>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.2846144814516!2d77.43031987477649!3d23.232727908453985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c435605f269e1%3A0xe67446598d15ad0e!2sCybrom%20Technology%20-%20Python%20%7C%20Java%20%7C%20MERN%20%7C%20C%20C%2B%2B%20%7C%20Data%20Science%20%7C%20Machine%20Learning%20%7C%20Ethical%20Hacking%20%7C%20Job%20oriented%20Training!5e0!3m2!1sen!2sin!4v1702880124066!5m2!1sen!2sin" ></iframe>
       </div>
+</div>
     </>
   )
 }
